@@ -18,3 +18,11 @@ make apply SERVICE_NAME=${SVC}
 # destroy all except the DNS zone
 make destroy SERVICE_NAME=${SVC}
 ```
+
+## Include as submodule
+
+to include this repo as a submodule:
+
+```bash
+ git submodule add git@github.com:gabeduke/cloudrun-bootstrap.git bootstrap/
+```
